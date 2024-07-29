@@ -3,9 +3,442 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Document</title>
+    <!-- css files-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- style switcher -->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternative-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternative-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternative-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternative-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternative-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
 </head>
 <body>
+    <!--main container start-->
+    <div class="main-container">
+        <!-- aside start -->
+        <div class="aside">
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#skills"><i class="fa fa-list"></i>Skills</a></li>
+                <li><a href="#project"><i class="fa fa-briefcase"></i>Projects</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
+        <!-- aside end -->
+        
+        <!-- main content start -->
+        <div class="main-content">
+            <!-- home section start -->
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info">
+                            <h3 class="hello">Hello, my name is <span class="name">Karishma Jethwani</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">web developer</span></h3>
+                            <p>
+                                I am a web developer with a passion for creating innovative and user-friendly websites and many more... 
+                            </p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="images/portfolio/karishma_processed.jpg" alt="profile-photo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- home section end -->
+
+            <!-- about section start -->
+            <section class="about section " id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Karishma Jethwani and <span>Web Developer</span></h3>
+                                    <p>
+                                        Hello! I am an enthusiastic and dedicated aspiring software developer with a keen interest in web development and data structures and algorithms (DSA). 
+                                        Currently, I am honing my skills in creating responsive and dynamic web applications, along with deepening my understanding of DSA to build efficient and scalable solutions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday: <span>20 Feb 2005</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City: <span>Jaipur</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>College: <span>BIT, Mesra</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age: <span>19</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree: <span>CS</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email: <span>example@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone: <span>+456 89 778</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance: <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#" class="btn">Download RESUME</a>
+                                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="education padd-15">
+                                        <h3 class="title">Education</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2010-2023
+                                                        </h3>
+                                                        <h4 class="timeline-title">Completed my 10th and 12th class</h4>
+                                                        <p class="timeline-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae quasi aliquam mollitia quibusdam quaerat iure id accusantium quos laborum laudantium nulla perferendis iste recusandae, ullam magnam ratione culpa cum.</p>
+                                                    </div>
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2023-2027
+                                                        </h3>
+                                                        <h4 class="timeline-title">Btech in Computer Science</h4>
+                                                        <p class="timeline-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod perspiciatis quas, a tempora vitae dolore odio dolorem est tenetur consequatur possimus, culpa similique magni suscipit aut natus? Natus, repudiandae pariatur.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="experience padd-15">
+                                        <h3 class="title">Experience</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2024-current
+                                                        </h3>
+                                                        <h4 class="timeline-title">Intern at ABC Company</h4>
+                                                        <p class="timeline-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime placeat corrupti saepe voluptatum modi. Maxime, explicabo. Amet facere minus voluptatem eius, suscipit consequatur molestiae veritatis fuga? </p>
+                                                    </div>
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2024-current
+                                                        </h3>
+                                                        <h4 class="timeline-title">Intern at DEF Company</h4>
+                                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde animi, dignissimos maxime fuga molestias molestiae voluptatum aliquam quis nulla saepe quibusdam tenetur laborum reiciendis deleniti quae architecto assumenda</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about section end -->
+             <!-- skills section start -->
+              <section class="skills section padd-15" id="skills">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Skills</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- skills item -->
+                         <div class="skills-item padd-15">
+                            <div class="skills-class-inner">
+                                <div class="image">
+                                    <img src="/CODESOFT/images/portfolio/java.png" alt="java">
+                                </div>
+                                <h4>Java programming language</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt praesentium similique eos saepe eius repellendus. Voluptas vero quo quas cum ullam! Commodi.</p>
+
+                            </div>
+                         </div>
+                         <!-- skills item end -->
+                          <!-- skills item -->
+                         <div class="skills-item padd-15">
+                            <div class="skills-class-inner">
+                                <div class="image">
+                                    <img src="/CODESOFT/images/portfolio/htmlc.png" alt="html logo">
+                                </div>
+                                <h4>HTML  language</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt praesentium similique eos saepe eius repellendus. Voluptas vero quo quas cum ullam! Commodi.</p>
+                                
+                            </div>
+                         </div>
+                         <!-- skills item end -->
+                          <!-- skills item -->
+                         <div class="skills-item padd-15">
+                            <div class="skills-class-inner">
+                                <div class="image">
+                                    <img src="/CODESOFT/images/portfolio/sta-je-css.png" alt="CSS logo">
+                                </div>
+                                <h4>CSS:Cascading Style Sheets</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt praesentium similique eos saepe eius repellendus. Voluptas vero quo quas cum ullam! Commodi.</p>
+                                
+                            </div>
+                         </div>
+                         <!-- skills item end -->
+                          <!-- skills item -->
+                         <div class="skills-item padd-15">
+                            <div class="skills-class-inner">
+                                <div class="image">
+                                    <img src="/CODESOFT/images/portfolio/javascript.jpg" alt="javascript">
+                                </div>
+                                <h4>JavaScript  language</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt praesentium similique eos saepe eius repellendus. Voluptas vero quo quas cum ullam! Commodi.</p>
+                                
+                            </div>
+                         </div>
+                         <!-- skills item end -->
+                          <!-- skills item -->
+                         <div class="skills-item padd-15">
+                            <div class="skills-class-inner">
+                                <div class="image">
+                                    <img src="/CODESOFT/images/portfolio/c languaege.png" alt="c">
+                                </div>
+                                <h4>C programming language</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt praesentium similique eos saepe eius repellendus. Voluptas vero quo quas cum ullam! Commodi.</p>
+                                
+                            </div>
+                         </div>
+                         <!-- skills item end -->
+                          <!-- skills item -->
+                         <div class="skills-item padd-15">
+                            <div class="skills-class-inner">
+                                <div class="image">
+                                    <img src="/CODESOFT/images/portfolio/dsa.jpg" alt="dsa">
+                                </div>
+                                <h4>DSA IN JAVA</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt praesentium similique eos saepe eius repellendus. Voluptas vero quo quas cum ullam! Commodi.</p>
+                                
+                            </div>
+                         </div>
+                         <!-- skills item end -->
+                    </div>
+                </div>
+              </section>
+              <!-- skills section end -->
+               <!-- project section start -->
+                <section class="project section" id="project">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Projects</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="project-heading">
+                                <h2> My Projects :</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- project item start -->
+                             <div class="project-item padd-15">
+                                <div class="project-item-inner shadow-dark">
+                                    <div class="project-img">
+                                        <img src="/CODESOFT/images/portfolio/Screenshot 2.png" alt="portfolio website">
+                                    </div>
+                                </div>
+
+                             </div>
+                             <!-- project item end -->
+                               <!-- project item start -->
+                             <div class="project-item padd-15">
+                                <div class="project-item-inner shadow-dark">
+                                    <div class="project-img">
+                                        <img src="/CODESOFT/images/portfolio/Screenshot (219).png" alt="Calculator">
+                                    </div>
+                                </div>
+
+                             </div>
+                             <!-- project item end -->
+                               <!-- project item start -->
+                             <div class="project-item padd-15">
+                                <div class="project-item-inner shadow-dark">
+                                    <div class="project-img">
+                                        <img src="/CODESOFT/images/portfolio/landing-page1.jpg" alt="Landing page ">
+                                    </div>
+                                </div>
+
+                             </div>
+                             <!-- project item end -->
+                        </div>
+                    </div>
+                </section>
+                <!-- project section end -->
+                 <!-- Contact section start -->
+                  <section class="contact section" id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Contact Me</h2>
+                            </div>
+                        </div>
+                        <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+                        <h4 class="contact-sub-title padd-15">
+                            I'M AT YOUR SERVICES
+                        </h4>
+                        <div class="row">
+                            <!-- contact-info item start -->
+                             <div class="contact-info-item">
+                                <div class="icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <h4>CONTACT NUMBER</h4>
+                                <p>91+ 7976769919</p>
+                             </div>
+                              <!-- contact-info item end-->
+                                <!-- contact-info item start -->
+                             <div class="contact-info-item">
+                                <div class="icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <h4>EMAIL</h4>
+                                <p>info@gmail.com</p>
+                             </div>
+                              <!-- contact-info item end-->
+                                <!-- contact-info item start -->
+                             <div class="contact-info-item">
+                                
+                               
+                                <a  class="fa fa-instagram" href="https://www.instagram.com/karishma.jethwani_/"> </a>
+                                <h4>INSTAGRAM</h4>
+                             </div>
+                              <!-- contact-info item end-->
+                                <!-- contact-info item start -->
+                             <div class="contact-info-item">
+                                 
+                                <a  class= "fa fa-linkedin" href="https://www.linkedin.com/in/karishma-jethwani-23b15b289/"> </a>
+                                
+                                <h4>LINKEDIN</h4>
+                             </div>
+                              <!-- contact-info item end-->
+                              
+
+                        </div>
+                        <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                        
+                        <!-- CONTACT FORM -->
+                         <div class="row">
+                            <div class="contact-form padd-15">
+                                <div class="row">
+                                   <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+
+                                   </div>
+
+                                   <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+
+                                   </div>
+                                   <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div>
+
+                                   </div>
+                                   <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                    </div>
+
+                                   </div>
+                                   <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn">Send Message</button>
+                                    </div>
+
+                                   </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                         </div>
+                    </div>
+                  </section>
+                  <!-- contact section end -->
+        </div>
+        <!-- main content end -->
+    </div>
+    <!--main container end-->
+    <!-- style switcher start -->
+     <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+           <i class="fas fa-cog"></i>
+
+
     
+        </div> 
+        <div class="day-night s-icon">
+           <i class="fa fa-moon">
+
+           </i> 
+        </div>
+       
+        
+        <h4> Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+        
+     </div>
+     <!-- style switcher end -->
+
+    <!-- js files-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+    referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
 </body>
 </html>
